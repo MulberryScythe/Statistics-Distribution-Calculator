@@ -123,6 +123,7 @@ int main()
     }
     std::cout << "Mean Absolute Deviation: " << MADsum / list.size() << "\n";
 
+    //Determines and prints standard deviation
     std::vector<double> SD;
     double a;
     for (int i = 0; i < list.size(); i++) {
